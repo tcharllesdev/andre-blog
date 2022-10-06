@@ -1,0 +1,8 @@
+/*GERAL*/
+@import "componentes.css";
+@import "cores.css";
+@import "global.css";
+@import "tipografia.css";
+
+/*PÁGINAS*/
+@import "home.css";

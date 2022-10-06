@@ -6,7 +6,12 @@
 
 /*BTN*/
 .btn {
-  background-image: linear-gradient(139deg,#25d366 24%,#00ff19 50%,#25d366 80%);
+  background-image: linear-gradient(
+    139deg,
+    #25d366 24%,
+    #00ff19 50%,
+    #25d366 80%
+  );
   color: #121212;
   font: 700 1.5rem/1.5 "Montserrat", sans-serif;
   background-color: transparent;
@@ -25,14 +30,18 @@
 }
 
 .btn2 {
-  background-image: linear-gradient(139deg,#25d366 24%,#00ff19 50%,#25d366 80%);
+  background-image: linear-gradient(
+    139deg,
+    #25d366 24%,
+    #00ff19 50%,
+    #25d366 80%
+  );
   color: #121212;
-  font: 700 1.5rem/1.5 "Montserrat", sans-serif;
+  font: 700 1.125rem/1.25 "Poppins", sans-serif;
   background-color: transparent;
-  padding: 10px 20px;
-  margin-top: 8px;
+  padding: 8px 16px;
   border-radius: 4px;
-  max-width: 400px;
+  max-width: 180px;
   display: block;
   text-align: center;
   cursor: pointer;
@@ -60,5 +69,3 @@
     padding: 0 40px;
   }
 }
-
-
