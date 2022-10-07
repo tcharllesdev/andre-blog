@@ -39,7 +39,8 @@
   color: #121212;
   font: 700 1.125rem/1.25 "Poppins", sans-serif;
   background-color: transparent;
-  padding: 8px 16px;
+  padding: 8px 16px !important;
+  border-bottom: none !important; 
   border-radius: 4px;
   max-width: 180px;
   display: block;

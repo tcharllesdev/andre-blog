@@ -14,29 +14,35 @@
     <div class="header-menu container">
       <a href="./"><img src="img/icons/logo.svg" alt=""></a>
 
-      <ul class="itens-menu">
+      <nav id="nav">
+        <button aria-label="Abrir Menu" class="font-links w" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
 
-        <li class="dropdown">
-          <div class="dropbtn font-links w">Produtos<img src="img/icons/down-arrow-menu.svg" alt="">
-          </div>
-          <div class="drop-produtos">
-            <a class="font-links w" href="./">Deixe de ser</a>
-            <a class="font-links w" href="./">Os segredos da conquista</a>
-            <a class="font-links w" href="./">Formação em terapeutas</a>
-          </div>
-        </li>
+          <span id="hamburger"></span>
+        </button>
+        <ul class="itens-menu" role="menu">
 
-        <li><a class="font-links w" href="posts.html">Publicações</a></li>
-        <li><a class="font-links w" href="sobre.html">Sobre</a></li>
-        <li><a class="btn2" href="resolva.html">COMECE AQUI</a></li>
-      </ul>
+          <li class="dropdown">
+            <div class="dropbtn font-links w">Produtos<img src="img/icons/down-arrow-menu.svg" alt="">
+            </div>
+            <div class="drop-produtos">
+              <a class="font-links w" href="./">Deixe de ser</a>
+              <a class="font-links w" href="./">Os segredos da conquista</a>
+              <a class="font-links w" href="./">Formação em terapeutas</a>
+            </div>
+          </li>
 
+          <li><a class="font-links w" href="posts.html">Publicações</a></li>
+          <li><a class="font-links w" href="sobre.html">Sobre</a></li>
+          <li><a class="btn2" href="resolva.html">COMECE AQUI</a></li>
+        </ul>
+
+      </nav>
 
     </div>
 
 
   </header>
-
+<script src="script.js"></script>
 </body>
 
 </html>
