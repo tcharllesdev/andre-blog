@@ -38,12 +38,6 @@
   width: 100%;
 } */
 
-.itens-menu li:first-child {
-  display: flex;
-  gap: 4px;
-  align-items: center;
-}
-
 .itens-menu li:first-child:hover img {
   transform: rotate(180deg);
   transition: 0.3s;
@@ -58,6 +52,9 @@
 
 .dropbtn {
   cursor: pointer;
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 
 .drop-produtos {
@@ -83,6 +80,3 @@
 .dropdown:hover .drop-produtos {
   display: block;
 }
-
-
-
