@@ -36,6 +36,12 @@ img {
 button {
   border-style: none;
 }
+input {
+  border: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
 
 /* montserrat-regular - latin */
 @font-face {

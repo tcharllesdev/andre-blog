@@ -7,6 +7,9 @@
 .font-p {
   font: 400 1.125rem/1.25 "Montserrat", sans-serif;
 }
+.font-p-s {
+  font: 400 .875rem/1.25 "Montserrat", sans-serif;
+}
 .font-links {
   font: 400 1.125rem/1.25 "Poppins", sans-serif;
 }

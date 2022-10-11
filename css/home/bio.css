@@ -1,0 +1,66 @@
+.bio-bg {
+  background-color: #121212;
+}
+
+.bio {
+  display: flex;
+  gap: 80px;
+}
+
+.bio-texto {
+  padding: 0px 40px;
+}
+
+.bio-img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bio-texto h1 {
+  padding-top: 40px;
+  margin-bottom: 24px;
+}
+.bio-texto p {
+  max-width: 600px;
+  margin-bottom: 12px;
+}
+
+.footer-bg {
+  background-color: #000000;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
+@media (max-width: 800px) {
+  .bio {
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  .bio-bg {
+    padding-bottom: 40px;
+  }
+  .bio-texto h1 {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 450px) {
+  .bio-texto h1 {
+    font-size: 2rem;
+  }
+  .bio-texto p {
+    font-size: 1rem;
+  }
+  .footer p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 375px) {
+  .bio-img img {
+    height: 310px;
+  }
+}

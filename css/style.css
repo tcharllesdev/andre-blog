@@ -4,5 +4,14 @@
 @import "global.css";
 @import "tipografia.css";
 
-/*PÁGINAS*/
+/*HOME*/
 @import "header.css";
+@import "home/introducao.css";
+@import "home/conteudo-lista.css";
+@import "home/gratuito-cta.css";
+@import "home/treinamentos.css";
+@import "home/bio.css";
+
+/*RESOLVA*/
+@import "resolva/resolva.css";
+

@@ -90,7 +90,7 @@
   display: none;
 }
   
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .itens-menu {
     display: block;
     position: absolute;
@@ -152,5 +152,11 @@
   #nav.active #hamburger::after {
     transform: rotate(-135deg);
     top: -7px;
+  }
+}
+
+@media (max-width: 431px) {
+  .header-menu a img {
+    width: 160px;
   }
 }
