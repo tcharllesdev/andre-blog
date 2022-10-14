@@ -1,0 +1,49 @@
+.intro-bg {
+  background-color: #121212;
+}
+.intro-titulo {
+  padding-top: 30px;
+}
+.intro-titulo > h1 {
+  margin-top: 8px;
+  padding-bottom: 40px;
+}
+
+.sobre-1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sobre-1 h1,
+.sobre-1 p {
+  max-width: 560px;
+}
+.sobre-1 h1 {
+  margin-bottom: 24px;
+}
+.sobre-1 p {
+  margin-bottom: 12px;
+}
+
+.sobre-2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.sobre-2 h1,
+.sobre-2 p {
+  max-width: 560px;
+}
+.sobre-2 h1 {
+  margin-bottom: 24px;
+}
+.sobre-2 p {
+  margin-bottom: 12px;
+}
+
+@media (max-width: 450px) {
+  .sobre-1 p,
+  .sobre-2 p {
+    font-size: 1rem;
+  }
+}

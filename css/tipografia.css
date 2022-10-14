@@ -2,6 +2,11 @@
   font: 700 2.5rem/1.110 "Poppins", sans-serif;
   letter-spacing: 0.015em;
 }
+.font-h2 {
+  font: 700 2rem/1.110 "Poppins", sans-serif;
+  letter-spacing: 0.015em;
+}
+
 
 
 .font-p {
