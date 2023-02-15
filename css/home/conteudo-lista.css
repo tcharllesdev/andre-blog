@@ -16,6 +16,10 @@
   height: 100%;
 }
 
+.conteudo-item p {
+  margin-bottom: 12px;
+}
+
 .conteudo-item h2 {
   margin: 12px 0;
 }

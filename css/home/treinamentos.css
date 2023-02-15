@@ -32,9 +32,10 @@
   height: 4px;
   background-color: #ff0042;
   display: block;
-  top: 45px;
-  left: 0;
+  top: 30px;
+  left: -18px;
   position: absolute;
+  rotate: 45deg;
 }
 .treinamentos-item p {
   max-width: 500px;
