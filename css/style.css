@@ -18,3 +18,8 @@
 /*SOBRE*/
 @import "sobre/intro.css";
 
+/*POSTS*/
+@import "posts/posts-lista.css";
+@import "posts/posts-item.css";
+
+

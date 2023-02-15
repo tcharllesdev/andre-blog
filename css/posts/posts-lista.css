@@ -1,0 +1,14 @@
+.posts-item {
+  padding-bottom: 32px;
+  border-bottom: 2px solid #ededed;
+  max-width: 700px;
+  margin-top: 40px;
+}
+.posts-item h1 {
+  margin-bottom: 24px;
+}
+
+.posts-item p {
+  max-width: 600px;
+  margin-bottom: 24px;
+}

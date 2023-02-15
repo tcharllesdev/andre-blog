@@ -1,0 +1,21 @@
+.posts-page {
+  padding-bottom: 24px;
+  border-bottom: 2px solid #ededed;
+}
+
+.posts-page h1 {
+  margin: 40px 0 12px 0;
+}
+
+.posts-page p {
+  max-width: 600px;
+  margin-bottom: 24px;
+}
+.posts-page-cta  {
+  margin-top: 24px;
+  margin-bottom: 60px;
+}
+.posts-page-cta p {
+  max-width: 600px;
+  margin-bottom: 12px;
+}
