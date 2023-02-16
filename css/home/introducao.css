@@ -29,7 +29,7 @@
 .secao1-text p:last-of-type::after {
   content: "";
   display: block;
-  background-image: url("../img/icons/arrow-cta.svg");
+  background-image: url("../../img/icons/arrow-cta.svg");
   width: 13px;
   height: 14px;
   position: absolute;
